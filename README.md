@@ -1,21 +1,29 @@
 # File Explorer
 
+## Overview
+
 This is a simple file explorer project built with React,CSS and TypeScript.
 
-## How to Start
+## Installation
 
-1. Clone the repository:
+### To get started with the project, follow these steps:
+
+1. **Clone the repository**:
+   ```bash
    git clone https://github.com/saquib0601/fileExplorer.git
 
-2. Navigate to the project directory:
+2. **Install dependencies**:
+    ```bash
+    npm install
 
-cd file-explorer
+3. **Run the app**:
+    ```bash
+    npm start
 
-3. Install dependencies:
+## Deployment
 
-npm install
+The app is deployed and can be accessed at [https://file-explorer-one.vercel.app/].
 
-4. Start the development server:
 
-npm start
-Open http://localhost:3000 in your browser to view the app.
+## Contact
+- For any questions or suggestions, feel free to connect with me.
