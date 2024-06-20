@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+  }
+  
+  .file-explorer {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  .folder,
+  .file {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    margin: 4px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .folder:hover,
+  .file:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .file-icon {
+    margin-right: 8px;
+  }
+  
+  .context-menu {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+  }
+  
+  .context-menu div {
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  .context-menu div:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 600px) {
+    .file-explorer {
+      padding: 10px;
+    }
+  
+    .folder,
+    .file {
+      padding: 6px;
+    }
+  }
+  
+  
